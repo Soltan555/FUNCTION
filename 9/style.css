@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.sign {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.sign input {
+    padding-left: 8px;
+    width: 260px;
+    height: 52px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid red;
+    margin-top: 5px;
+}
+
+.sign button {
+    margin-top: 10px;
+    width: 260px;
+    height: 42px;
+    color: red;
+    background-color: white;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sign button:hover {
+    color: white;
+    background-color: red;
+}
